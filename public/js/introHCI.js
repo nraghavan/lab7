@@ -11,12 +11,11 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 	$(".likeBtn").click(likeClick);
-	console.log("Niyati");
 }
 
 function likeClick(e){
 	e.preventDefault();
-	console.log("meep");
+	console.log("clicked")
 	ga("send", "event", "like", "click");
 }
 
